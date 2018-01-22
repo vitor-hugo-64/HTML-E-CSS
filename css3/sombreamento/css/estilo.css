@@ -1,0 +1,21 @@
+/*
+	box-shadow - Serve para colocar sombra em formas, o primeiro parametro é o alinhamento
+	horizontal da sombra, o segundo é o vertical, o terceiro é o embaçamento e o quarto é o espalhamento.
+*/
+#box{
+	padding: 55px 55px;
+	background: blue;
+	width: 315px;
+	height: 315px;
+	box-shadow: 10px 10px 10px black;
+}
+
+#box h1{
+	text-shadow: 10px 20px 10px black;
+	color: white;
+}
+
+#box h2{
+	text-shadow: 10px 20px rgba(0,0,0,0.5);
+	color: white;
+}

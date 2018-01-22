@@ -1,0 +1,42 @@
+/*
+	url() - Atributo que serve para determinar um plano de fundo a partir de uma imagem.
+
+	rgba - tag que serve para definir cor a um atributo, mas ao inves de ser por código
+	hexadecimal ou palavra as cores são definidas por escalas de vermelho,verde e azul e o
+	ultimo parametro é de transparencia os valores de tranparencia variam de 0 a 1(0.2,0.4).
+
+	linear-gradient - Serve pra dar um efeito degrade com duas cores. A direção pode ser
+	determinada através de direções como 'to left' ou a partir de graus '80deg'.
+
+	radial-gradient - Serve para dar um efeito de círculo, a quantidade de cores mescladas pode
+	variar.
+
+*/
+#box{
+	width: 300px;
+	height: 300px;
+	background: url("../img/camera.png");
+}
+
+#box h1{
+	background: rgba(255,255,255,0.2);
+	border-bottom: 2px solid #fff;
+}
+
+#box2{
+	width: 300px;
+	height: 300px;
+	background: linear-gradient(to left, red, yellow);
+}
+
+#box3{
+	width: 300px;
+	height: 300px;
+	background: linear-gradient(80deg, red, yellow);
+}
+
+#box4{
+	width: 300px;
+	height: 300px;
+	background: radial-gradient( red, yellow, blue);
+}

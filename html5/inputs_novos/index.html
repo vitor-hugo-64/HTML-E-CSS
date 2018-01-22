@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Inputs Novos</title>
+		<meta charset="utf-8"/>
+	</head>
+	
+	<!-- 
+		Algo que é considerado uma boa prática dos programadores é associar uma label ao um 'input'.
+		for - serve basicamente para associr uma label á um input através de um 'id'.
+		
+		Um diferencial do HTML para o HTML5 é fato de que na hora de declarar um input os types possuem
+		maior variedade e isso facilita na hora de preencher um formulário. Um exemplo disso é o type
+		'email' que só aceita emails válidos caso o contrário ele gera um aviso de email inválido.
+	 -->
+	 
+	 <!--
+	 	text - Type que serve para criar um input para a entrada de texto.
+		
+		email - type que serve para a entrada de email válidos.
+		
+		number - type que serve basicamente para a entrada de numeros e caso seja digitado algum outro
+		tipo de caracter esse campo não aceitara.
+			min - É um atributo que pode ser usado para determinar o numero minimo que pode ser digitado
+			em determinado campo de numero.
+			max - É exatamente o contrário do 'min'. Os dois atributos podem ser usados em conjunto para
+			se determinar um intervalo.
+			step - Atributo que serve para determinar em que intervalo os numeros nas setas vão correr.
+		
+		url - Tipo de type que serve basicamente para a entrada de url.
+			placeholder - Atributo novo do html5 que serve basicamente para colocar dicas nas caixas de 
+			input do formuário e etc.
+			required - Novo atributo que serve para impedir que um determinado campo do formulário seja
+			enviado sem ser preenchido
+			autofocus - É um atributo que permite que o formulário ja inicie com o focu em um determinado
+			campo.
+			
+		search - Serve para criar um input que ira servir para pesquisar.
+		
+		data - atributo que serve para criar um input para a inserção de data.
+		
+		color - Atributo que serve para a criação de um campo que ira receber valores do tipo de uma cor.
+			
+	 -->
+	
+	<body>
+
+		<form>
+			
+			<!-- NOME -->
+			<label for="nome">Nome: </label>
+			<input type="text" id="nome" autofocus>
+			<br><br>
+			<!-- EMAIL -->
+			<label for="email">E-Mail: </label>
+			<input type="email" id="email">
+			<br><br>
+			<!-- NUMERO -->
+			<label for="numero">Número: </label>
+			<input type="number" id="numero" min="2" max="10" step="2">
+			<br><br>
+			<!-- URL -->
+			<label for="url">URL:  </label>
+			<input type="url" id="url" placeholder="Ex: http://google.com">
+			<br><br>
+			<!-- PESQUISAR -->
+			<label for="pesquisa">Pesquisa: </label>
+			<input type="search" id="pesquisa">
+			<br><br>
+			<!-- RANGE -->
+			<label for="Range">Range: </label><br>
+			<input type="range" id="Range" min="1" max="10" value="5">
+			<br><br>
+			<!-- DATA -->
+			<label for="data">Data: </label>
+			<input type="date" id="data">
+			<br><br>
+			<!-- COR -->
+			<label for="cor">Cor: </label>
+			<input type="color" id="cor">
+			<br><br>
+			
+			<input type="submit" value="Enviar"/>
+			<br><br>
+			
+		</form>
+	
+	</body>
+	
+</html>

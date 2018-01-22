@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	color: gray;
+	background: #c0c0c0;
+}
+
+h2{
+	margin-left: 10px;
+}
+
+
+/****** CLASSES *******/
+.pagina{
+	width: 720px;
+	margin: 0 auto;
+}
+
+.postagem{
+	background: white;
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.conteudo{
+	text-align: justify;
+	width: 650px;
+	padding: 10px;
+	display: block;
+	margin: 0 auto;
+}
+
+/****** IDS *******/
+#header{
+	height: 57px;
+	background: white;
+	border-bottom: 2px solid black;
+}
+
+#logo{
+	padding: 10px;
+	color: red;
+	float: left;
+}
+
+#menu{
+	padding: 20px;
+	color: blue;
+	float: right;
+}
+
+/****** LINKS ******/
+a{
+	text-decoration: none;
+	padding: 10px;
+}
+
+a:link{
+	padding: 10px;
+}
+
+a:visited{
+
+}
+
+a:hover{
+	background: black;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+a:active{
+	color: red;
+	background: green;
+}

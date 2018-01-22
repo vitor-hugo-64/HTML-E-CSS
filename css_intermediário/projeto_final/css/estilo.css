@@ -1,0 +1,104 @@
+/* LIMPAR FORMATAÇÃO PADRÃO */
+/* limpar a formatação padrão de cada tag é sempre necessário
+   pois cada navegador tem um tipo de formatção padrão, então
+   para que todos os navegadores exibam sempre a mesma
+   interface para o site issso se torna muito útil. */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f3f3f3;
+}
+
+p{
+	text-align: justify;
+}
+
+/*ID'S*/
+#navegacao{
+	background: #fff;
+	border-bottom: 1px solid #d8d8d8;
+	height: 45px;
+}
+
+#area{
+	width: 720px;
+	margin: 0 auto;
+}
+
+#area-principal{
+	width: 720px;
+	margin: 10px auto 10px auto;
+}
+
+#menu{
+	float: right;
+	padding: 10px;
+	margin: 0px;
+}
+
+#logo{
+	float: left;
+
+}
+
+#postagem{
+	background: white;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border: 1px solid #C0C0C0;
+}
+
+
+/*CLASSES*/
+.cor{
+	color: #1E90FF;
+}
+
+.data-postagem{
+	font-size: 14px;
+	border-bottom: 1px solid #C0C0C0;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.img-postagem{
+	float: left;
+	margin: 0px 10px 5px 0px;
+	border-radius: 3px;
+	border: 1px solid #C0C0C0;
+}
+
+.postado{
+	border-left: 5px solid #C0C0C0;
+	padding: 0 0 0 5px; 
+}
+
+
+/* LINKS */
+a{
+	text-decoration: none;
+	color: #A9A9A9;
+	padding: 5px 10px;
+}
+
+a:link{
+	color: #838383;
+}
+
+a:hover{
+	background: #C0C0C0;
+	color: white;
+	padding: 10px 10px 16px 10px;
+}
+
+a:active{
+	background: #C0C0C0;
+	color: #1E90FF;
+}

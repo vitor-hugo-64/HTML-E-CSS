@@ -1,0 +1,39 @@
+	<style type="text/css">
+
+		a{
+			
+		}
+		/* LINKS NÃO VISITADOS */
+		a:link{
+			color: green;
+			text-decoration: none; /* SERVE PRA TIRAR O SUBLINADO DOS LINKS*/
+			padding: 10px;
+			background-color: yellow;
+		}
+
+		/* LINKS VISITADOS */
+		a:visited{
+			color: gray;
+		}
+
+		/* LINKS HOVER(quando passa o cursor do mouse em cima) */
+		a:hover{
+			color: pink;
+			background: #6A5ACD;
+
+		}
+
+		/* LINKS ATIVOS(quando clicado) */
+		a:active{
+			color: yellow;
+			background: #00BFFF;
+		}
+
+		h1{
+			color: orange;
+		}
+
+		body{
+			background: black;
+		}
+	</style>

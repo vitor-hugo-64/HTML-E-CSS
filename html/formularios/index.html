@@ -1,0 +1,106 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulário</title>
+</head>
+
+<body>
+	<!-- form - É usado Para Abrir O Fomulario -->
+    
+    <!-- input - Tag Que Serve Para A Entrada De Dados -->
+    
+    <!-- type - Tag Que É Usada Para Definir O Tipo De Entrada -->
+    
+    <!--
+    	TIPOS DE TYPE
+        
+        	text - Serve Para Inserir Caixa De Texto;
+            
+            password - Serve Para Inserir Caixas De Textos Mas Com Um Formato De Senha. Os Caracteres Digitados Nesses Espaço Ficam Em Forma De Bolinhas;
+            
+            button - Serve Para Inserir Um Botão:
+            	value - Define O Que Vai Estar Escrito No Botão;
+                
+            submit - Tambem Usado Para Inserir Um Botão, Mas Com  A Diferença Que Os Submits São Automaticamente Programados Para Cadastrar Os Dados Que
+            Estão Dentro Do '<form></form>' E Que Mais Tarde Podem Ser Recuperados;
+            	value - Define O Que Vai Estar Escrito No Submit;
+            
+            number - Serve Pra Inserir Uma Caixa De Inserção De Números;
+                
+            radio - Server Pra Criar Um Circulo De Escolha Que Pode Ser Marcado Quando Se Aperta Com O Mouse:
+            	name - OS Names de Um Radio Servem Para Estabelecer Um Relação De Escolha Entre Eles, Portanto Fazendo Eles Se Tornarem Parte De Um Mesmo
+                Quesito. Dessa Forma Somente Um Deles Pode Ser Marcado;
+            
+           	checkbox - Segue A Mesma Linha De Raciocínio Que O Radio, No Entanto É MultiploEscolha:
+            	name - Define Um Nome Para Um Determinado de Numero De Checkbox Que Fazem Parte Do Mesmo Quesito;
+                 
+    -->
+    
+    <!-- 
+    	select - Serve Para Inserir Um Combo(Barra De Escolhas):
+            	options - É Usada Para Inserir As Diferente Opções Do Combo;
+    -->
+    
+    <!-- textarea - Serve Pra Inserir Um Caixa De Texto Maior; -->
+    
+    
+    <h1>Formulário</h1>
+    <br>
+	<form>
+    	Login:<br> <input type="text" />
+        <br/>
+        Senha:<br> <input type="password" />
+        <br>
+        <br>
+  		<input type="button" value="Login"/>
+    </form>
+    <br>
+    <br>
+    <br>
+    <h1>Formulário Cadastro</h1>
+    <br>
+    <form>
+    	LOGIN: <br>
+        <input type="text" />
+        <br>
+        SENHA: <br>
+        <input type="password" />
+        <br>
+        <br>
+        IDADE:<br>
+        <input type="number" />
+        <br>
+        <br>
+        SEXO: <br/>
+        <input type="radio" name="sexo"/> Masculino
+        <br>
+        <input type="radio" name="sexo" /> Feminino
+        <br>
+        <br>
+        ÁREAS DE INTERESSE: <br>
+        <input type="checkbox" /> Direito<br>
+        <input type="checkbox" /> Arquitetura<br>
+        <input type="checkbox" /> Informática<br>
+        <br>
+        <br>
+        ESTADO<br>
+        <select>
+        	<option>RS</option>
+            <option>SP</option>
+            <option>SC</option>
+            <option>MG</option>
+        </select>
+        <br>
+        <br>
+        OBSERVAÇÕES<br>
+        <textarea></textarea>
+        <br>
+        <br>
+        <input type="button" value="Cadastrar" />
+        
+        
+    </form>
+    
+</body>
+</html>

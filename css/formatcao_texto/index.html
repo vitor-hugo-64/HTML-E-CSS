@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formatação de Texto</title>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+		
+	.texto{
+		font-size: 20px; /* DEFINE O TAMANHO DA LETRA EM PIXELS(px) EM PORCENTAGEM(%) E TAMBEM EM(em) */
+	}
+
+	p{
+		font-size: 100%
+	}
+
+	#em{
+		font-size: 1em;
+	}
+
+	.negrito{
+		font-weight: bold; 
+	}
+
+	.italico{
+		font-style: italic;
+	}
+
+	.padrao{
+		text-decoration: line-through;
+	}
+
+	</style>
+
+</head>
+
+	<!--
+		em - SERVE PARA DEFINIR UM TAMANHO PROPORCIONAL AO ELEMENTO(ex: div) EM QUE ESTÁ INSERIDO, ENTÃO SE O TAMANHO DAQUELE ELEMENTO É DEFINIDO PRA 16px ELE IRÁ SE ADAPTAR AO QUE ESTÁ DETERMINDAO.
+
+		% - SERVE PARA DEFINIR A PORCENTAGEM BASEADA NO PADRÃO DEFINIDO PELA FONTE DO SISTEMA
+	-->
+
+	<!-- 
+		font-weight - SERVE PRA DEFINIR SE O TEXTO VAI RECEBER UM NEGRITO OU NÃO. O BOLT DEFINE COMO NEGRITO E NORMAL DEFINE SEM NEGRITO. TAMBÉM PODEM SER USADOS NUMEROS DE 100 A 900 PARA DEFINIR O NIVEL DE NEGRITO QUE SE DESEJA EXPOR NA TELA.
+	 -->
+
+	 <!--
+		font-style - SERVE PRA DEFINIR UM ESTILO PRA FONTE. AS FONTES PODEM SER DEFINIDAS COMO ITALICO(italic) OU TAMBEM (oblique) 
+	 -->
+
+	 <!--
+		text-decortion - SERVE PRA DEIXAR O TEXTO SUBLINHADO.
+			1. undeline: DEIXA SUBLINADO;
+			2. overline: DEIXA SUBLINADO EM CIMA;
+			1. line-through: DEIXA AS LETRAS COM UMA LINHA NO MEIO, COMO SE TIVESSEM SIDO RISCADAS;
+	 -->
+
+<body>
+	<div>
+		<p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet efficitur magna. Fusce non magna mi. Vestibulum vitae arcu non orci pharetra maximus. Proin metus est, tincidunt in dolor id, finibus pharetra mi. Aenean id sollicitudin orci. Praesent quis odio iaculis, feugiat elit eu, dignissim est. Fusce luctus ex nec consectetur commodo. In est metus, pretium non sodales in, facilisis in eros.</p>
+
+    	<p>Nam finibus elementum fermentum. Pellentesque et pretium dui. Sed accumsan ut nisl rhoncus vehicula. Nam ultricies iaculis dolor, condimentum ullamcorper eros maximus sit amet. Etiam neque justo, porttitor ac dapibus a, maximus sed justo. Quisque blandit sodales turpis sed pellentesque. Pellentesque finibus, arcu quis rutrum iaculis, lectus velit consequat turpis, <span class="negrito">id iaculis purus</span> elit in diam. Sed commodo placerat nulla eu lobortis. Aenean fermentum nunc ac porttitor auctor.</p>
+    
+    	<p id="em">Fusce diam nibh, blandit vitae rhoncus id, molestie sit amet eros. Aliquam nunc quam, malesuada nec massa ut, tempus varius est. Donec libero mauris, luctus eget pellentesque ac, <span class="italico">imperdiet vel</span> metus. Ut cursus tortor nec nulla euismod accumsan. Suspendisse vitae tortor id elit finibus pellentesque non et lectus. Nunc scelerisque augue eros, non auctor felis vehicula a. Duis laoreet velit eu tellus auctor luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+    	<p class="texo-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet efficitur magna. Fusce non magna mi. Vestibulum vitae arcu non orci pharetra maximus. Proin metus est, tincidunt in dolor id, finibus pharetra mi. Aenean id sollicitudin orci. Praesent quis <span class="padrao">odio iaculis, feugiat elit eu, dignissim</span> est. Fusce luctus ex nec consectetur commodo. In est metus, pretium non sodales in, facilisis in eros.</p>
+	</div>    
+</body>
+</html>

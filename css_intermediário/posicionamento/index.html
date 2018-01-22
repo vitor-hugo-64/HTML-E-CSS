@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Posicionamento</title>
+	<meta charset="utf-8"/>
+	<style type="text/css">
+		body{
+			background: #61db8c;
+			padding: 15px;
+		}
+
+		#conteudo{
+			background: #ffffff;
+			padding: 2px;
+			width: 500px;
+			margin: 30px auto;
+			height: 500px;
+			position: relative;
+		}
+
+		.caixa{
+			background: #1e6f44; 
+			width: 200px;
+			height: 50px;
+			color: #ffffff;
+		}
+
+		#relativa{
+			position: relative;
+			left: 30px;
+			top: 5px;
+
+		}
+
+		#absoluta{
+			position: absolute;
+			bottom: 0;
+			right: 70px;
+
+		}
+
+		#fixa{
+			position: fixed;
+			top: 0;
+		}
+	</style>
+</head>
+
+	
+	<!-- 
+		margin: 30px auto - O "auto" Serve Basicamnete Para Determinar Um Tipo De Valor Automático. No Caso Do Id 'Conteúdo'
+		A Margin Dele Terá 30 Pixels Superior E Inferior E As Laterais Irão Se Ajustar De Forma Automática Conforme O Tamanha Da Tela Para Que A Div Sempre Fique Centralizada.
+	 -->
+
+	 <!-- 
+
+	 	*** TAGS PARA MOVIMENTAR ***
+
+		left - movimenta a div da esquerda pra direita
+		top - movimenta de cima para baixo
+		rigth - movimenta da direita pra esquerda
+		bottom - movimenta de baixo para cima
+
+	  -->
+
+	 <!--
+	 	position relative - Toda movimentação feita na div ou etc sera feito em relação a sua posição original
+
+	 	position absolute - Toda movimentação da caixa vai ser em relação ao body do projeto, e se alguma div receber um id que tenha posição absouluta, e a caixa estiver dentro dela, então a caixa vai ser movimentada em relação à div.
+
+	 	position fixed = Toda movimentação feita vai ser em relação a janela do navegador. 
+	  -->
+
+
+<body>
+
+	<div id="conteudo" id="absolute">
+		
+		<h1>Conteúdo Principal</h1>
+
+		
+		<div class="caixa" id="relativa">
+			Relative
+		</div>
+		<br>
+		
+		<div class="caixa" id="fixa">
+			Fixed
+		</div>
+		<br>
+		
+		<div class="caixa" id="absoluta">
+			Absoluto
+		</div>
+		
+
+	</div>
+
+</body>
+</html>

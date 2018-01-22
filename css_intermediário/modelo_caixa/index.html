@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Modelo Caixa</title>
+
+		<style type="text/css">
+			.espacamento{
+				border: 2px solid blue;
+				margin: 10px;
+				padding-: 20px;
+			}
+
+			.espacamento1{
+				border: 2px solid red;
+				margin: 2px 3px 4px 5px;
+				padding: 2px 3px 4px 5px;
+			}
+
+			.espacamento2{
+				border: 10px solid green;
+
+				margin-left: 5px;
+				margin-right: 20px;
+				margin-top: 10px;
+				margin-bottom: 40px;
+
+				padding-top: 5px;
+				padding-bottom: 20px;
+				padding-left: 10px;
+				padding-right: 40px;
+			}
+		</style>
+
+	</head>
+
+	<!-- 
+		border - SERVE PRA COLOCAR UMA BORDA NA TAG DESEJADA;
+		margin - SERVE PRA SER POSTO UM ESPAÇO EXTERNO EM RELAÇÃO A TAG;
+		padding - SERVE PRA COLOCAR UM ESPAÇO INTERNO EM RELAÇÃO A TAG;
+
+
+		**** DIFERENTES MANEIRAS DE FORMATAR USANDO BORDER, MARGIN, COLOR ****
+
+		PARA FORMATAR OS QUATRO LADOS NA MESMA MEDIDA - Simplismente determine um unico valor que ele automaticamente ira configurar os quatro lados do mesmo jeito. EX: padding: 10px;
+
+		PARA FORMATAR SUPERIOR E INFERIOR DE UM JETIO E ESQUERDA E DIREITA E OUTRO - Defina Dois Valores. O Primeiro Deles Irá Valer Para A Parte Superior E Inferior Enquanto A Outra Irá Valer Para A Esquerda E A Direita. EX: margin: 10px 20px;
+
+		PARA FORMATAR CADA LADO COM UM VALOR DIFERENTE - Defina Quatro Valores Tendo Em Mente A Seguinte Ordem "Superior, Direita, Inferior, Esquerda". Ex: padding: 10px 20px 40px 30px;
+
+		AINDA PODE SE USAR UMA SINTAXE ESPECIFICA PARA CADA LADO NO CASO DO 'MARGIN' E 'PADDING' A PARTIR DO SEGUINTES COMANDOS:
+										1.margin-left;
+										2.margin-rigth;
+										3.margin-top;
+										4.margin-bottom;
+										5.padding-left;
+										6.padding-rigth;
+										7.padding-top;
+										8.padding-bottom;
+
+		**** É IMPORTANTE FRISAR QUE ALGUMAS TAGS COMO <h1></h1> JÁ VEM COM UM TIPO DE FORMATAÇÃO PADRÃO E QUE ISSO PODE TER INFLUENCIA NA HORA DE DEFINIR OS ESPACAMENTOS ****************
+
+		
+	 -->
+
+	<body>
+
+		<p class="espacamento">
+			Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo.
+		</p>
+
+		<div class="espacamento1">
+			Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo.
+		</div>
+
+		<div class="espacamento2">
+			Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo Conteudo.
+		</div>
+
+	</body>
+</html>

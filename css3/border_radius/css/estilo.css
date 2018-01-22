@@ -1,0 +1,29 @@
+/*
+	border-radius - Tipo de atributo que serve para arredondar as bordas. Nem todos os navegadores tem suporte para que os atributos de
+	borda funcionem corretamente, então para que a compatibilidade seja aceita em versões mais antigas do chrome e do mozila por exemplo
+	é de boa prática se usar prefixos.
+
+	border-sizing: boder-box - Tipo de atributo que serve para tirar o padding das classes e ids. Facilita na hora de fazer os calculos
+	de formatação da tela do navegador.
+*/
+
+
+#box{
+	width: 300px;
+	height: 300px;
+	background: #b9c941;
+	padding: 20px;
+	border-radius: 20px 80px;
+	/* PREFIXO PARA VERSÕES MAIS ANTIGAS DO GOOGLE CHROME */
+	-webkit-border-radius: 20px;
+	/* PREFIXO PRA VERSÕES MAIS ANTIGAS DO MOZILA FIREFOX */
+	-moz-border-radius: 20px;
+
+	box-sizing: border-box;
+	/* PREFIXO PARA VERSÕES MAIS ANTIGAS DO GOOGLE CHROME */
+	-webkit-box-sizing: border-box;
+	/* PREFIXO PARA VERSÕES MAIS ANTIGAS DO MOZILA FIREFOX */
+	-moz-box-sizing: border-box;
+
+
+}

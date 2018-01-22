@@ -1,0 +1,84 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tabelas</title>
+</head>
+
+<body>
+	<!-- TAGS PAR A CRIAÇÃO DE UMA TABELA -->
+    
+    <!-- border - Serve Para Definir O Tamanho Da Borda -->
+    
+    <!-- tr - Serve Para Definir Linhas Nas Tabelas -->
+    
+    <!-- td - Serve Para Colocar Os Dados Dentro Da Tabela, Se Algum Conteúdo For Colocado Fora Do 'td' Eles Não Serão Incluídos Dentro Da Tabela -->
+    
+    <!-- th - Serve Para Definir Os Cabeçalhos(Títulos) De Cada Coluna -->
+    
+    <!-- width - Serve Para Definir A Largura Da Tabela Em Pixels
+    Se Os Numeros Forem Colocados Em Porcentagem A Tabela Vai Ocupar A Porcentagem Do Tamanho da Tela 
+    Que Se Auto Ajustará onforme O Tamanho Da Tela Muda -->
+    
+    <!-- colspan - Serve Basicamente Para Determinar Um Determinado Número de Colunas Que A Célula Vai Ocupar. Se Ele Receber O Valor Dois Por Exemplo,
+    Ele irá Ocupar Duas Colunas A Partir Daquela -->
+    
+    <!-- rowspan - Faz A Mesma Coisa Que O 'colspan' mas ao invés de unir colunas ele uni linhas -->
+    
+    <table border="1" width="180">
+    	<tr>
+        	<td>aa</td>
+            <td>ab</td>
+            <td>ac</td>
+        </tr>
+        
+        <tr>
+        	<td>ba</td>
+            <td>bb</td>
+            <td>bc</td>
+        </tr>
+        
+        <tr>
+        	<td>ca</td>
+            <td>cb</td>
+            <td>cc</td>
+        </tr>
+        
+        <tr>
+        	<td><img src="4.jpg" width="35" heigth="45"/></td>
+        </tr>
+    </table>
+    
+    <table border="1" width="50%">
+    	<tr>
+        	<th>Produto</th>
+            <th>Preço</th>
+            <th>Garantia</th>
+        </tr>
+        
+        <tr>
+        	<td>Notebook</td>
+            <td>2.500,00</td>
+            <td>5 Anos</td>
+        </tr>
+        
+        <tr>
+        	<td>Celular</td>
+            <td>1.500,00</td>
+            <td>2 Anos</td>
+        </tr>
+        
+        <tr>
+        	<td colspan="2">Total</td>
+            <td>4.000,00</td>
+        </tr>
+        <tr>
+        	<td rowspan="2">Desconto</td>
+            <td>15%</td>
+        </tr>
+        <tr>
+            <td>20%</td>
+        </tr>
+    </table>
+</body>
+</html>

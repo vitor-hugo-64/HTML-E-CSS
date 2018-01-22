@@ -1,0 +1,38 @@
+body{
+	background: grey;
+}
+
+a{
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+	background: #DCDCDC;
+}
+
+a:link{
+	
+}
+
+a:visited{
+
+}
+
+a:hover{
+	background: black;
+	color: white;
+}
+
+a:active{
+	color: red;
+	background: green;
+}
+
+#mover{
+	position: relative;
+	right: 4px;
+}
+
+#mover2{
+	position: relative;
+	right: 8px;
+}
